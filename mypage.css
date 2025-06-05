@@ -1,0 +1,196 @@
+/* selector universal */
+
+/* espaçamento interno,espaçamento externo e ajustando o box model */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* herança de estilo */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+/* secçao inicio */
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+header {
+  background: linear-gradient(to right, #1a73e8, #4285f4);
+  color: whitesmoke;
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+header img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 0.5rem solid white;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 1rem 0 0;
+  font-size: 2.8rem;
+}
+.about {
+  max-width: 80rem;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+.section {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #1a73e8;
+  margin-bottom: 1rem;
+}
+
+.pro {
+  background: #fff;
+  border-radius: 2.3rem;
+  background-color: gray;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.secao-c {
+  line-height: 2;
+  background-image: url(fundo-de-textura-de-cetim-branco.jpg);
+}
+
+.secao-cv {
+  font-size: 2.5rem;
+  color: #1a73e8;
+  line-height: 1.6;
+}
+
+.secao-cvv {
+  font-size: 2rem;
+}
+
+.secao-servico {
+  background-image: linear-gradient(whitesmoke, lightgrey);
+  color: black;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  padding: 2.5rem 1.5rem;
+  padding-left: 0.9rem;
+}
+
+.secao-cv-servico {
+  font-size: 2.5rem;
+  color: black;
+  line-height: 1.6;
+}
+
+.botao {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 0.8rem 1.4rem;
+  display: inline-block;
+  color: black;
+  box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
+  border: 0;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.input-servico {
+  padding: 0.65rem;
+  background-color: white;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.1);
+  border: 0;
+  border-radius: 0.9rem;
+  font-family: inherit;
+}
+
+input::placeholder {
+  color: #757575;
+}
+
+.botao:hover {
+  color: #1a73e8;
+  background-color: lightgray;
+}
+
+.secao-y {
+  font-size: 1.7rem;
+  line-height: 1.6;
+}
+
+.social-icon {
+  display: inline-block;
+}
+
+.rede-social-item {
+  display: inline-block;
+  margin-right: 2rem;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "✔";
+  margin-right: 1rem;
+  color: #1a73e8;
+}
+
+hr {
+  display: none;
+}
+
+/* seção redes sociais */
+figcaption {
+  color: #404040;
+  font-family: "Montserrat" sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.rodape-titulo {
+  font-size: 2.3rem;
+  color: #7a7d30;
+  font-weight: 600;
+}
+
+.icon-whatsp {
+  position: fixed;
+  bottom: 0;
+  right: 1.5rem;
+}
